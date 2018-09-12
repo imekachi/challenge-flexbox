@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import styled from 'styled-components'
-import ChallengePage from './components/ChallengePage'
-import OrderPage from './components/OrderPage'
+import ChallengePage from './pages/ChallengePage'
+import OrderPage from './pages/OrderPage'
 
 const Container = styled.div`
   display: flex;

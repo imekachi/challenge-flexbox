@@ -1,21 +1,8 @@
+import PropTypes from 'prop-types'
 import React from 'react'
 import styled from 'styled-components'
-import PropTypes from 'prop-types'
+import { Container, Header, Wrapper } from '../components/Layout'
 import COLORS from '../styles/colors'
-
-const Wrapper = styled.div``
-
-const Header = styled.h1`
-  font-size: 24px;
-  padding: 30px;
-  text-align: center;
-`
-
-const Container = styled.div`
-  max-width: 360px;
-  margin: auto;
-  padding: 20px;
-`
 
 const OrderTable = styled.div`
   border: 1px solid ${COLORS.GRAY_LIGHT_1};
