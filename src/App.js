@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom'
 import styled from 'styled-components'
-import ChallengePage from './pages/ChallengePage'
+import CartPage from './pages/CartPage'
 import OrderPage from './pages/OrderPage'
 
 const Container = styled.div`
@@ -13,7 +13,7 @@ const App = () => (
   <Router>
     <Container>
       <Route exact path="/" component={OrderPage} />
-      <Route path="/challenge" component={ChallengePage} />
+      <Route path="/challenge" component={CartPage} />
     </Container>
   </Router>
 )
