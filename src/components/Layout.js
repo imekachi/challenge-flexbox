@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { parseWithDefault } from '../styles/utils'
 
 export const Wrapper = styled.div``
 
@@ -9,7 +10,7 @@ export const Header = styled.h1`
 `
 
 export const Container = styled.div`
-  max-width: 360px;
+  max-width: ${props => parseWithDefault(props.maxWidth, 360)};
   margin: auto;
   padding: 20px;
 `
