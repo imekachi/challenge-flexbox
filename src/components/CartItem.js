@@ -7,7 +7,6 @@ import { FONT_FAMILIES } from '../styles/fonts'
 import { RATIO_OG } from '../styles/sizes'
 
 const Wrapper = styled.div`
-  display: flex;
   padding: 15px;
 `
 
@@ -25,11 +24,6 @@ const Image = styled.div`
 
 const InfoWrapper = styled.div`
   padding-left: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex: 1;
 `
 
 const Title = styled.div`
@@ -40,11 +34,7 @@ const Title = styled.div`
   color: ${COLORS.GRAY_DARK_3};
 `
 
-const BottomSection = styled.div`
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-`
+const BottomSection = styled.div``
 
 const RemoveButton = styled.button`
   box-shadow: none;
